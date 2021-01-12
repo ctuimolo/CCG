@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NezTest_OpenGL.CCG.Cards
+namespace MGCCG.CCG.Cards
 {
     class Lacertate : CombatCard
     {
@@ -16,8 +16,6 @@ namespace NezTest_OpenGL.CCG.Cards
             BaseUses    = 2;
             BaseCost    = 1;
 
-            Uses = BaseUses;
-            Cost = BaseCost;
         }
     }
 }

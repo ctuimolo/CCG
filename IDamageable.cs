@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NezTest_OpenGL.CCG
+namespace MGCCG.CCG
 {
     public interface IDamageable
     {
-        public void ReceiveAttack(CombatCard attacker);
+        void ReceiveAttack(CombatCard attacker);
     }
 }

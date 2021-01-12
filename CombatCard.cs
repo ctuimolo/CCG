@@ -2,14 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NezTest_OpenGL.CCG
+namespace MGCCG.CCG
 {
-    public enum CardClass
-    {
-        Combat,
-        Shadow,
-    }
-
     public abstract class CombatCard : Card
     {
         public int BaseAttack   { get; protected set; }

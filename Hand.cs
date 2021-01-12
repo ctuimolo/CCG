@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NezTest_OpenGL.CCG
+namespace MGCCG.CCG
 {
-    class Hand
+    public class Hand
     {
+       protected List<Card> Cards;
     }
 }
